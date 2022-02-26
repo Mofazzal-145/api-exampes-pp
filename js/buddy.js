@@ -14,6 +14,7 @@ buddies()
      for(const buddy of buddies){
      //console.log(buddy)
      const p = document.createElement('p');
+     // p.innerText = buddy.email;
      p.innerHTML = `
       Name: ${buddy.name.title}, ${buddy.name.first}, ${buddy.name.last}, ${buddy.email}
      `;
